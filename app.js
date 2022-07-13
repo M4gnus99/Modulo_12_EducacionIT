@@ -1,8 +1,9 @@
-let edad = prompt("Ingrese su edad: ");
+let usuario = prompt("Ingrese nombre de Usuario: ");
+let contrasenia = prompt("Ingrese su contraseña: ");
 
-if(edad < 18){
-    alert("ERROR");
+if(usuario =="admin" && contrasenia == "1234"){
+    alert("BIENVENIDO ADMIN");
 }
 else{
-    alert("Bienvenido!!");
+    alert("Datos incorrectos");
 }
